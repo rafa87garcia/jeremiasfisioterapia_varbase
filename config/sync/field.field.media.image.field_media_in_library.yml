@@ -1,0 +1,25 @@
+uuid: ad20932c-7220-4b5d-b783-e2cf89a28498
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_in_library
+    - media.type.image
+_core:
+  default_config_hash: WEC_8GwsLMl6fKYI7EeR3hnzIDdLXLnjZ9CyRC3-eBY
+id: media.image.field_media_in_library
+field_name: field_media_in_library
+entity_type: media
+bundle: image
+label: 'Show in media library'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

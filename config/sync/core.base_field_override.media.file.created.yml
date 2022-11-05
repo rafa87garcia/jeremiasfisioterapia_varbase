@@ -1,0 +1,20 @@
+uuid: 42ae7e92-20e3-4b44-9838-ec11fa126ac5
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.file
+_core:
+  default_config_hash: mY2VGrFj7Oo3n3srimSZjwS4WpwoPGse2Ge5Wnivcuk
+id: media.file.created
+field_name: created
+entity_type: media
+bundle: file
+label: 'Fecha de autoría'
+description: 'El momento en el cual el elemento multimedia fue creado.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

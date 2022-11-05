@@ -1,0 +1,20 @@
+uuid: a15a17cb-3174-47b7-a493-ceb7a6e665a3
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: l_5CxuecEsy3be4R-3Hx2PZl8qbMcHKaB3Pgge8aaKs
+id: image
+label: Imagen
+description: 'Utilice imágenes locales para elementos multimedia reutilizables.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

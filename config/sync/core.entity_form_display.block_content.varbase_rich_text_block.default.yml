@@ -1,0 +1,30 @@
+uuid: 74564125-43b1-43c3-a4f0-c7e206834e3f
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_rich_text_block
+    - field.field.block_content.varbase_rich_text_block.body
+  module:
+    - text
+_core:
+  default_config_hash: a4KKE7XUc1B_kwpxvGquj5ie0T03QSSH0moKkZa9zQs
+id: block_content.varbase_rich_text_block.default
+targetEntityType: block_content
+bundle: varbase_rich_text_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 0
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true
+  translation: true

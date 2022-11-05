@@ -1,0 +1,17 @@
+langcode: es
+admin_css: true
+one_pixel: true
+placeholder: ''
+responsive_image: true
+blazy:
+  loadInvisible: false
+  offset: 100
+  saveViewportOffsetDelay: 50
+  validateDelay: 25
+io:
+  unblazy: false
+  rootMargin: 0px
+  threshold: '0'
+  disconnect: false
+  enabled: false
+unbreakpoints: false

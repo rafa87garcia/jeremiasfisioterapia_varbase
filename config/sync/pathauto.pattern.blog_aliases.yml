@@ -1,0 +1,24 @@
+uuid: 406270ae-d9c7-4f9b-92d1-f85dbea5e8d9
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 7gl-_JfmEBmiSOqylEBy8huOpKxnju43ZNEmFXlgdxo
+id: blog_aliases
+label: 'Blog aliases'
+type: 'canonical_entities:node'
+pattern: '/blog/[node:title]'
+selection_criteria:
+  c1d1dee9-9dc0-4a10-89ee-94ee968678b2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c1d1dee9-9dc0-4a10-89ee-94ee968678b2
+    context_mapping:
+      node: node
+    bundles:
+      varbase_blog: varbase_blog
+selection_logic: and
+weight: -5
+relationships: {  }

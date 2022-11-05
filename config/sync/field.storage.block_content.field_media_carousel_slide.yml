@@ -1,0 +1,22 @@
+uuid: 61e11e48-f609-442e-a8cc-cf4b9c69fe20
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+_core:
+  default_config_hash: tP6C76mt1koiJfnz2ors2lJz-8jidGBu-Ttv6sJwjRw
+id: block_content.field_media_carousel_slide
+field_name: field_media_carousel_slide
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

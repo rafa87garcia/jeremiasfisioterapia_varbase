@@ -1,0 +1,70 @@
+uuid: 0e65d46e-9b7a-4921-8f33-3b714e068330
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.varbase_heroslider_media.field_brief
+    - field.field.node.varbase_heroslider_media.field_link
+    - field.field.node.varbase_heroslider_media.field_media_single
+    - node.type.varbase_heroslider_media
+  module:
+    - ds
+    - link
+    - user
+_core:
+  default_config_hash: BNr7EDOzhvi_bB2V78WEu-3MxzoSiAECImer8VH0w6M
+id: node.varbase_heroslider_media.default
+targetEntityType: node
+bundle: varbase_heroslider_media
+mode: default
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_brief:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    weight: 3
+    region: content
+  field_media_single:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: varbase_media_hero_slider
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  links: true

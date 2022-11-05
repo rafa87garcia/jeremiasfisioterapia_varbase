@@ -1,0 +1,34 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - rabbit_hole
+id: behavior_settings--behavior_settings
+disabled: true
+path: behavior_settings/behavior_settings
+resourceType: behavior_settings--behavior_settings
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

@@ -1,0 +1,12 @@
+uuid: b9d0576f-07e6-408a-9d5e-6ac922408725
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sHhMlkV2Lfv_XMoXMxgvtakHtAjQ5qvO7X7AIK2EmBQ
+id: node.tout_medium
+label: 'Tout - medium'
+targetEntityType: node
+cache: true

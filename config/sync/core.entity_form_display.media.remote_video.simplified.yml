@@ -1,0 +1,39 @@
+uuid: e4e4ecd8-e117-4e17-bf34-5c1c86cbcab4
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.simplified
+    - field.field.media.remote_video.field_media_cover_image
+    - field.field.media.remote_video.field_media_in_library
+    - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_provider
+    - media.type.remote_video
+  module:
+    - media
+_core:
+  default_config_hash: PSV-Aj139LGK8PWhu22eZ-tOzJTQL_95YiDwZh3xzds
+id: media.remote_video.simplified
+targetEntityType: media
+bundle: remote_video
+mode: simplified
+content:
+  field_media_oembed_video:
+    type: oembed_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_cover_image: true
+  field_media_in_library: true
+  field_provider: true
+  langcode: true
+  name: true
+  path: true
+  preview: true
+  status: true
+  uid: true

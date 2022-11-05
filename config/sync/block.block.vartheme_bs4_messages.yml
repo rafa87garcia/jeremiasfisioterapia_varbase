@@ -1,0 +1,22 @@
+uuid: 952d8f2e-c2c9-42d8-afbf-1e33259a930a
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_bs4
+_core:
+  default_config_hash: huxwwvGRW6sCzkLbI-SIUmbV2FU6aENqCjH8AxuGNfA
+id: vartheme_bs4_messages
+theme: vartheme_bs4
+region: header
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

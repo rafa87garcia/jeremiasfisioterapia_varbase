@@ -1,0 +1,24 @@
+uuid: 7bec6f4c-b694-490b-a51d-554ed80107fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.varbase_heroslider_media
+_core:
+  default_config_hash: JCpP1M53e8K6TeU3M_wKPA244xfiNJhzQBnXUGZVhrg
+id: node.varbase_heroslider_media.sticky
+field_name: sticky
+entity_type: node
+bundle: varbase_heroslider_media
+label: 'Fijo al comienzo de las listas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: b94be615-aa40-4bd0-b38b-d8485ef0459e
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2q2utr64_esqpIf4zs8AQlwD4Qx4E7zlyq3vx64o6u8
+id: administer_error_logs
+label: 'Administer error logs'
+route: dblog.overview

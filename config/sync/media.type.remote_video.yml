@@ -1,0 +1,24 @@
+uuid: 66459efb-807a-4d8e-895b-e0371995010f
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: QEbhPcaUpuINB6A1q5dUuR0cURVyq5_iPJOBZNACWY0
+id: remote_video
+label: 'Video remoto'
+description: 'Un video almacenado remotamente en Youtube o Vimeo.'
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_oembed_video
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers:
+    - YouTube
+    - Vimeo
+field_map: {  }

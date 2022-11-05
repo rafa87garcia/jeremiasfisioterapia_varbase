@@ -1,0 +1,12 @@
+uuid: e0476a4d-ec08-41f0-94b3-4a15617b2874
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: ch3fA5nTs8vP8WprsqiRBAWTsuuAOi9nnU9sOimEPsA
+id: media.large
+label: 'Large (Full width)'
+targetEntityType: media
+cache: true

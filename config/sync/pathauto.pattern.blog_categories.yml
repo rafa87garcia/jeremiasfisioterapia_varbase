@@ -1,0 +1,24 @@
+uuid: 51e96f97-9e32-4c46-b993-3b53b65c4adf
+langcode: es
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: LeeAT3qySXeWwaRIKXd619Msz9KPWhOXniTcfXXcOAQ
+id: blog_categories
+label: 'Blog categories'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'blog/categories/[term:name]'
+selection_criteria:
+  a352f2a3-fc08-4a3e-b764-1a8b8f5c05b7:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: a352f2a3-fc08-4a3e-b764-1a8b8f5c05b7
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      blog_categories: blog_categories
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,83 @@
+uuid: d3e24d5c-61f6-4847-b183-9fc3e0e98c4d
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - simple_sitemap
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: 6Xg5o_FHCiFO2tJlYWHYVE29NwoFqKvxr8n_oI4fGNU
+id: simple_sitemap_type--simple_sitemap_type
+disabled: true
+path: simple_sitemap_type/simple_sitemap_type
+resourceType: simple_sitemap_type--simple_sitemap_type
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  description:
+    disabled: false
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+  sitemap_generator:
+    disabled: false
+    fieldName: sitemap_generator
+    publicName: sitemap_generator
+    enhancer:
+      id: ''
+  url_generators:
+    disabled: false
+    fieldName: url_generators
+    publicName: url_generators
+    enhancer:
+      id: ''

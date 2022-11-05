@@ -1,0 +1,27 @@
+uuid: 2790be9e-838f-4ced-81e0-4ce525c461a4
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.d08
+    - image.style.d10
+    - image.style.d12
+    - image.style.de2e
+_core:
+  default_config_hash: oQnTwEjh4sjiCSEvFlU5URXDts1gUu5-MrsBUZBXwkI
+id: de2e
+label: 'Display Edge-to-Edge responsive auto'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - d08
+        - d10
+        - d12
+        - de2e
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: de2e

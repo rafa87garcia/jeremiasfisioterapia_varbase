@@ -1,0 +1,37 @@
+uuid: f6114be1-0f1e-4496-84c3-2e42389d343f
+langcode: es
+status: true
+dependencies:
+  module:
+    - login_destination
+_core:
+  default_config_hash: zDlSyO8TDCQvjTu60OOlQ96W425xwoiOOkSlcM-YfaI
+id: login_destination--login_destination
+disabled: true
+path: login_destination/login_destination
+resourceType: login_destination--login_destination
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

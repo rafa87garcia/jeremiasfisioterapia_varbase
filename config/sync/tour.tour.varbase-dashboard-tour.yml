@@ -1,0 +1,57 @@
+uuid: 56afdeca-d33b-4a29-a01a-dfaabf5a4ade
+langcode: es
+status: true
+dependencies:
+  module:
+    - varbase_total_control
+_core:
+  default_config_hash: 2NQEhlgcqxWxD4Qwri9BieJYaBFo2pVnkkQk94BbM4A
+id: varbase-dashboard-tour
+label: 'Varbase Dashboard Tour'
+module: varbase_total_control
+routes:
+  -
+    route_name: page_manager.page_view_total_control_dashboard_total_control_dashboard-panels_variant-0
+  -
+    route_name: page_manager.page_view_total_control_dashboard_total_control_dashboard-panels_variant-1
+tips:
+  welcome-to-your-dashboard:
+    id: welcome-to-your-dashboard
+    plugin: text
+    label: 'Welcome to Your Dashboard'
+    weight: 1
+    position: top
+    selector: null
+    body: "<p>As an editor or a site manager, this dashboard includes quick access links and summarized information for you.</p>\r\n<p>Press \"Next\" to get a quick overview of its elements.</p>"
+  your-account:
+    id: your-account
+    plugin: text
+    label: 'Your Account'
+    weight: 2
+    position: top
+    selector: '.block-varbase-dashboard-user .button-action'
+    body: '<p>You can always edit your account by going clicking this button.</p>'
+  create-content:
+    id: create-content
+    plugin: text
+    label: 'Crear contenido'
+    weight: 3
+    position: right
+    selector: .block-varbase-create-content
+    body: "<p>This block will list the most important content for you or your editors to create.</p>\r\n<p>You can edit what content types to appear here by going to the <b>Dashboard Panel edit page</b>. <em>If you don't have permission to do so, contact your site administrator.</em></p>"
+  google-analytics:
+    id: google-analytics
+    plugin: text
+    label: 'Google Analytics'
+    weight: 4
+    position: bottom
+    selector: '.block-views-blockvarbase-google-analytics-summary-sessions-and-pageviews .panel__content'
+    body: '<p>Connect your Google Analytics account to your site to start seeing stats directly in your dashboard.</p>'
+  your-content-statistics:
+    id: your-content-statistics
+    plugin: text
+    label: 'Your Content Statistics'
+    weight: 5
+    position: right
+    selector: '.block-varbase-content-overview  a[href="/admin/content?type=page"]'
+    body: '<p>Finally, once you start adding content to your site, your content''s statistics will appear here.</p>'

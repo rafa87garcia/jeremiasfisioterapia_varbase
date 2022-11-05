@@ -1,0 +1,37 @@
+uuid: 409ac963-a9e8-42cc-8f52-bd253cc5a006
+langcode: es
+status: true
+dependencies:
+  module:
+    - responsive_preview
+_core:
+  default_config_hash: Siz31bSyEvj725Uhx75UaA1b8XC2AsknppCX1MtSJ_8
+id: responsive_preview_device--responsive_preview_device
+disabled: true
+path: responsive_preview_device/responsive_preview_device
+resourceType: responsive_preview_device--responsive_preview_device
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

@@ -1,0 +1,77 @@
+uuid: 8b45d0c7-a71b-4bd8-bc17-d1bc23ece9cd
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - system
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: mYWOP_TWFNdlQYTm7i0b3EvCOnlFbcLOp1K2nQVAg1M
+id: menu--menu
+disabled: true
+path: menu/menu
+resourceType: menu--menu
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  description:
+    disabled: false
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+  locked:
+    disabled: false
+    fieldName: locked
+    publicName: locked
+    enhancer:
+      id: ''

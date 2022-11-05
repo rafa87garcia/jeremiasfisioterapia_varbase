@@ -1,0 +1,143 @@
+uuid: e125b08c-5388-4ffe-976a-1fe00744f27a
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - user
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: mt-KQ5yDTD_faE6-o3LdZFni-lMNO8j1eudi4SFfjZY
+id: user--user
+disabled: true
+path: user/user
+resourceType: user--user
+resourceFields:
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  preferred_langcode:
+    disabled: false
+    fieldName: preferred_langcode
+    publicName: preferred_langcode
+    enhancer:
+      id: ''
+  preferred_admin_langcode:
+    disabled: false
+    fieldName: preferred_admin_langcode
+    publicName: preferred_admin_langcode
+    enhancer:
+      id: ''
+  name:
+    disabled: false
+    fieldName: name
+    publicName: name
+    enhancer:
+      id: ''
+  pass:
+    disabled: false
+    fieldName: pass
+    publicName: pass
+    enhancer:
+      id: ''
+  mail:
+    disabled: false
+    fieldName: mail
+    publicName: mail
+    enhancer:
+      id: ''
+  timezone:
+    disabled: false
+    fieldName: timezone
+    publicName: timezone
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  access:
+    disabled: false
+    fieldName: access
+    publicName: access
+    enhancer:
+      id: ''
+  login:
+    disabled: false
+    fieldName: login
+    publicName: login
+    enhancer:
+      id: ''
+  init:
+    disabled: false
+    fieldName: init
+    publicName: init
+    enhancer:
+      id: ''
+  roles:
+    disabled: false
+    fieldName: roles
+    publicName: roles
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: false
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  metatag:
+    disabled: false
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''
+  field_last_password_reset:
+    disabled: false
+    fieldName: field_last_password_reset
+    publicName: field_last_password_reset
+    enhancer:
+      id: ''
+  field_password_expiration:
+    disabled: false
+    fieldName: field_password_expiration
+    publicName: field_password_expiration
+    enhancer:
+      id: ''
+  user_picture:
+    disabled: false
+    fieldName: user_picture
+    publicName: user_picture
+    enhancer:
+      id: ''

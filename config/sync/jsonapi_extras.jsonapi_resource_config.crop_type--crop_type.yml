@@ -1,0 +1,37 @@
+uuid: 54b0a62d-bc32-466b-b09f-1ce3f83602c9
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+_core:
+  default_config_hash: wdsu0zT5eU5dshpt59DWEvNYfGWrsbTyuJoJ0vcxslQ
+id: crop_type--crop_type
+disabled: true
+path: crop_type/crop_type
+resourceType: crop_type--crop_type
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

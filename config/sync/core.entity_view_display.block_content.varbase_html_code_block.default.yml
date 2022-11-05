@@ -1,0 +1,26 @@
+uuid: ce0c6407-f826-437d-a4ed-440fc55eb37c
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_html_code_block
+    - field.field.block_content.varbase_html_code_block.body
+  module:
+    - text
+_core:
+  default_config_hash: JnkIPxJe501sEAWuuBUts6NkeYf71nAJS_Eyb6CboxI
+id: block_content.varbase_html_code_block.default
+targetEntityType: block_content
+bundle: varbase_html_code_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

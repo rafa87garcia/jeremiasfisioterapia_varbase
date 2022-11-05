@@ -1,0 +1,35 @@
+uuid: 0dd3f1a8-4df2-4f91-bf90-df798e52e67e
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_gallery_block
+    - field.field.block_content.varbase_gallery_block.field_gallery
+  module:
+    - ds
+_core:
+  default_config_hash: lADs5GFTvO2njWdp6DbH5INsGuCjbrYRFu_6DOPXisk
+id: block_content.varbase_gallery_block.default
+targetEntityType: block_content
+bundle: varbase_gallery_block
+mode: default
+content:
+  field_gallery:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: se2e_standard
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

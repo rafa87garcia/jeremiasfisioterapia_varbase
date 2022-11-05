@@ -1,0 +1,89 @@
+uuid: f9e9489e-2914-4561-867f-d4c3eca108ed
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - media_bulk_upload
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: gBD-_PZHrlwz9e3NO4R3pRA77dJm1CvBByilgokFa6Y
+id: media_bulk_config--media_bulk_config
+disabled: true
+path: media_bulk_config/media_bulk_config
+resourceType: media_bulk_config--media_bulk_config
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  media_types:
+    disabled: false
+    fieldName: media_types
+    publicName: media_types
+    enhancer:
+      id: ''
+  show_alt:
+    disabled: false
+    fieldName: show_alt
+    publicName: show_alt
+    enhancer:
+      id: ''
+  show_title:
+    disabled: false
+    fieldName: show_title
+    publicName: show_title
+    enhancer:
+      id: ''
+  form_mode:
+    disabled: false
+    fieldName: form_mode
+    publicName: form_mode
+    enhancer:
+      id: ''

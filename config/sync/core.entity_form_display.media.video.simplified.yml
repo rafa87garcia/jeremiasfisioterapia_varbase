@@ -1,0 +1,35 @@
+uuid: 69f6973f-9a47-4196-a744-861868e8d8b1
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.simplified
+    - field.field.media.video.field_media_cover_image
+    - field.field.media.video.field_media_in_library
+    - field.field.media.video.field_media_video_file
+    - media.type.video
+  module:
+    - file
+_core:
+  default_config_hash: Oq3ScmvKcC2P2r6sIkbenMR1f3zFlJ9JbsqdOMlSnNQ
+id: media.video.simplified
+targetEntityType: media
+bundle: video
+mode: simplified
+content:
+  field_media_video_file:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_cover_image: true
+  field_media_in_library: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

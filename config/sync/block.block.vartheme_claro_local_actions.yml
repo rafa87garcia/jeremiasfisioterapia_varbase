@@ -1,0 +1,20 @@
+uuid: 4597337b-6d8a-4445-bd41-14f608f25857
+langcode: es
+status: true
+dependencies:
+  theme:
+    - vartheme_claro
+_core:
+  default_config_hash: 3rZ6JbwWzUDkeUyV-pMQGE9z5NPUZj0_RD1nV-vupMM
+id: vartheme_claro_local_actions
+theme: vartheme_claro
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

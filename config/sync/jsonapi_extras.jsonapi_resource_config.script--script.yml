@@ -1,0 +1,83 @@
+uuid: 316042c2-4c6e-44b3-af59-151d92ed39f1
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - script_manager
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: mMNci1qPG8sjLk9cvmBOoUNe8JE8t5s6EBHa2r8cbSY
+id: script--script
+disabled: true
+path: script/script
+resourceType: script--script
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  snippet:
+    disabled: false
+    fieldName: snippet
+    publicName: snippet
+    enhancer:
+      id: ''
+  position:
+    disabled: false
+    fieldName: position
+    publicName: position
+    enhancer:
+      id: ''
+  visibility:
+    disabled: false
+    fieldName: visibility
+    publicName: visibility
+    enhancer:
+      id: ''

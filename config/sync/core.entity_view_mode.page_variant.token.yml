@@ -1,0 +1,12 @@
+uuid: 9d4ea5c7-5e49-41f6-b386-91c98db277f7
+langcode: es
+status: true
+dependencies:
+  module:
+    - page_manager
+_core:
+  default_config_hash: qHzyP5Jvt3l540GgpPIoMhlc8VBxwxCFeY8mB3ImpDE
+id: page_variant.token
+label: Comodín
+targetEntityType: page_variant
+cache: true

@@ -1,0 +1,17 @@
+uuid: 59027e73-4397-4a95-899e-631c0fb7eefa
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+    - system
+_core:
+  default_config_hash: o946uJlkxATOINv23-nWPvp8plQ52XpSv3tUZVv007g
+id: anonymous
+label: 'Usuario anónimo'
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'
+  - 'view media'

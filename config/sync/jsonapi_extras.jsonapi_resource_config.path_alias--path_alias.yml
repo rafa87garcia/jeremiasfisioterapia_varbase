@@ -1,0 +1,65 @@
+uuid: 47c8b3e1-7aee-436e-b257-1f38e45cee44
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - path_alias
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: BF6SZFJUvkWwN2H6NGccHaCXKLstNHPKW78dyb5nqcI
+id: path_alias--path_alias
+disabled: true
+path: path_alias/path_alias
+resourceType: path_alias--path_alias
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  revision_id:
+    disabled: false
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  path:
+    disabled: false
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+  alias:
+    disabled: false
+    fieldName: alias
+    publicName: alias
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: false
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''

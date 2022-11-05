@@ -1,0 +1,22 @@
+uuid: abb37f34-10b1-41ec-96da-412f2e5800e6
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vartheme_claro
+_core:
+  default_config_hash: 7zG7ZDC2g70Kw45F0RKyF-bMUR-PfOsYC1aKl4HT6YU
+id: vartheme_claro_help
+theme: vartheme_claro
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

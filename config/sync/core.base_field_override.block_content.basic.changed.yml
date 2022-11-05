@@ -1,0 +1,20 @@
+uuid: 4a407a8f-b010-4920-946f-57e3d060c1b2
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+_core:
+  default_config_hash: w_ImULAjZ_0FWCZxxXe67Vnfiz0a054lXrLvfsbHdlQ
+id: block_content.basic.changed
+field_name: changed
+entity_type: block_content
+bundle: basic
+label: Modificado
+description: 'La fecha en la que el bloque personalizado se editó por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

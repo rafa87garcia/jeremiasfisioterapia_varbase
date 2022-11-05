@@ -1,0 +1,13 @@
+uuid: 8a49a1c9-9966-426c-a650-9f76b385d31e
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_heading_block
+_core:
+  default_config_hash: ZZYUpBncP7bYuVjjOZPYlrqxWS_TNKILTvQSEsdx6fc
+id: block_content.varbase_heading_block
+target_entity_type_id: block_content
+target_bundle: varbase_heading_block
+default_langcode: site_default
+language_alterable: false

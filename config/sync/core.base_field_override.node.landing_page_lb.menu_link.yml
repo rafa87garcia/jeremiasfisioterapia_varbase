@@ -1,0 +1,22 @@
+uuid: cdc6d8f8-10ad-40b4-9084-2004aaaab968
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.landing_page_lb
+_core:
+  default_config_hash: jH-7naYAPjvQYmY4fUK1ntsUrEwp3DHGomWHkd99-X8
+id: node.landing_page_lb.menu_link
+field_name: menu_link
+entity_type: node
+bundle: landing_page_lb
+label: 'Enlace del menu'
+description: 'Enlace de menú calculado para el nodo (solo disponible durante el guardado del nodo).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

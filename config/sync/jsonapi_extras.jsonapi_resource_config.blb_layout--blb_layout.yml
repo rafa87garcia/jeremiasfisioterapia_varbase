@@ -1,0 +1,71 @@
+uuid: 301273a8-77a4-4bb9-86a3-6f2ae2efb5f0
+langcode: es
+status: true
+dependencies:
+  module:
+    - bootstrap_layout_builder
+    - jsonapi_defaults
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: 2fKWNE2tcaOI3I1HfF1cJ2cJZvvsNzBWl8OeaED9DyQ
+id: blb_layout--blb_layout
+disabled: true
+path: blb_layout/blb_layout
+resourceType: blb_layout--blb_layout
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  number_of_columns:
+    disabled: false
+    fieldName: number_of_columns
+    publicName: number_of_columns
+    enhancer:
+      id: ''

@@ -1,0 +1,14 @@
+uuid: cf125bb3-f7da-489a-809e-cbc6efcf3b32
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.seo_admin
+  module:
+    - user
+id: user_remove_role_action.seo_admin
+label: 'Elimina el rol SEO Admin al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: seo_admin

@@ -1,0 +1,9 @@
+uuid: c1bcf4fe-a7f9-4bf6-9ceb-add8f35b22bc
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vSfHdbKa2p1IQef7CsX70SQ_89VBQMObZTff7dbm6JA
+id: flush_css_js_cache_from_admin_toolbar
+label: 'Flush css/js cache from admin toolbar'
+route: admin_toolbar_tools.cssjs

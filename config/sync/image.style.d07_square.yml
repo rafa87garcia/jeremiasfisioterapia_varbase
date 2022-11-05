@@ -1,0 +1,19 @@
+uuid: 5917a5a4-0c98-4844-a786-df8e6ce30cd1
+langcode: es
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: KyeS1qPhM1_QJ-Xk84c_Rosff5QY2WDzUfcIuTkZOTg
+name: d07_square
+label: 'Display 07 (700xSquare 1:1)'
+effects:
+  39fa288e-052c-4b96-8dbe-81311fe0b7ab:
+    uuid: 39fa288e-052c-4b96-8dbe-81311fe0b7ab
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 700
+      crop_type: focal_point

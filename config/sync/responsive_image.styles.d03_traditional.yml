@@ -1,0 +1,26 @@
+uuid: 159720d2-b692-4934-add3-e117bc76dbf4
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.d03_traditional
+    - image.style.d08_traditional
+  module:
+    - varbase_media
+_core:
+  default_config_hash: QXIJmdmjzdI0Ac_ZPjglA1khporUxhSrB8gpRSVzZ6M
+id: d03_traditional
+label: 'Display 03 responsive traditional 4:3'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: d08_traditional
+    breakpoint_id: varbase_media.screen-sm-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: d03_traditional
+    breakpoint_id: varbase_media.screen-md-min
+    multiplier: 1x
+breakpoint_group: varbase_media
+fallback_image_style: d03_traditional

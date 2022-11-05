@@ -1,0 +1,89 @@
+uuid: c928b97f-4e66-4492-b019-a3ae7968dd10
+langcode: es
+status: true
+dependencies:
+  module:
+    - entityqueue
+    - jsonapi_defaults
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: n7V0dCWH_JTNuFD1M1ijfUb3rDXpoDDyFprz4XfNHb0
+id: entity_queue--entity_queue
+disabled: true
+path: entity_queue/entity_queue
+resourceType: entity_queue--entity_queue
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  handler:
+    disabled: false
+    fieldName: handler
+    publicName: handler
+    enhancer:
+      id: ''
+  handler_configuration:
+    disabled: false
+    fieldName: handler_configuration
+    publicName: handler_configuration
+    enhancer:
+      id: ''
+  entity_settings:
+    disabled: false
+    fieldName: entity_settings
+    publicName: entity_settings
+    enhancer:
+      id: ''
+  queue_settings:
+    disabled: false
+    fieldName: queue_settings
+    publicName: queue_settings
+    enhancer:
+      id: ''

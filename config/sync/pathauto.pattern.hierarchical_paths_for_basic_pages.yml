@@ -1,0 +1,24 @@
+uuid: efe6a40c-1a93-4cc7-929d-8d73a1d38fb0
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: awJ-05p3qzIve8tz20FB1ScHB7N41n0wCSnZzfk3Dv0
+id: hierarchical_paths_for_basic_pages
+label: 'Hierarchical paths for basic pages'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parents:join-path]/[node:title]'
+selection_criteria:
+  e8a66397-ab44-4e98-b407-ef082a104e4e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e8a66397-ab44-4e98-b407-ef082a104e4e
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

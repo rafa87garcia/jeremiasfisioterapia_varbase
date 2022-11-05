@@ -1,0 +1,20 @@
+uuid: 2bba47a6-955e-4ea3-a983-58a5be8be1cb
+langcode: es
+status: true
+dependencies:
+  theme:
+    - vartheme_bs4
+_core:
+  default_config_hash: G9S2xcoqVCkv2KZgqf_qJu304J0EaGJXrbFL9whlFcg
+id: vartheme_bs4_local_actions
+theme: vartheme_bs4
+region: header
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

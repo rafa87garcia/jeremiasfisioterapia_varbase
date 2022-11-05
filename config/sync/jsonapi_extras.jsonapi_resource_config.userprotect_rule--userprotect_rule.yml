@@ -1,0 +1,37 @@
+uuid: 4a58d2db-1793-4c97-9175-d5ed0d792a8a
+langcode: es
+status: true
+dependencies:
+  module:
+    - userprotect
+_core:
+  default_config_hash: q-Kc2L-YDAgvQc7peUgDWh4k_V1zOfm5mX0uFRUo8wM
+id: userprotect_rule--userprotect_rule
+disabled: true
+path: userprotect_rule/userprotect_rule
+resourceType: userprotect_rule--userprotect_rule
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

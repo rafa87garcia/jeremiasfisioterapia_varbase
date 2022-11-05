@@ -1,0 +1,10 @@
+uuid: a072fa4d-5b97-4689-aa80-f692837fb302
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fs5CDJ559OuBPJKnurSpOVFJCtAsls_xmfjkFiWrRsU
+id: varbase_rich_text_block
+label: 'Rich text'
+revision: 1
+description: 'A rich text block contains a title and a body with a rich text format.'

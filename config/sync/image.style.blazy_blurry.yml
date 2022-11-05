@@ -1,0 +1,17 @@
+uuid: fd41d628-838d-4bd1-bba6-a7836758fe09
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uf2rbtiBu6lsKPlm9bTMV-UcGJpOQDn8T8eyInRF7mI
+name: blazy_blurry
+label: 'Blazy Blurry'
+effects:
+  43eaf639-71b9-458a-8320-4d489481f2ee:
+    uuid: 43eaf639-71b9-458a-8320-4d489481f2ee
+    id: image_scale
+    weight: 1
+    data:
+      width: 10
+      height: null
+      upscale: false

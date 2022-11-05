@@ -1,0 +1,35 @@
+uuid: a41d744d-30fe-4f11-b3be-2fa95adc4f5f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.editor
+    - field.field.media.video.field_media_cover_image
+    - field.field.media.video.field_media_in_library
+    - field.field.media.video.field_media_video_file
+    - media.type.video
+  module:
+    - file
+_core:
+  default_config_hash: EuyHKUOdNZNE3brrGGramtpp9ra1aYge-d3zDQUekUM
+id: media.video.editor
+targetEntityType: media
+bundle: video
+mode: editor
+content:
+  field_media_video_file:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_cover_image: true
+  field_media_in_library: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

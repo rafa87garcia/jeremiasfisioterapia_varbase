@@ -1,0 +1,17 @@
+uuid: 1c83d2ee-8300-412a-9b28-8bebf4be4c98
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xSyPNYYSBxv-LDJwRBteubH12IhbHaX0o4FeCw3sakk
+name: de2e
+label: 'Display Edge-to-Edge auto'
+effects:
+  8310be22-3f51-419d-8e81-0be8a68e09e8:
+    uuid: 8310be22-3f51-419d-8e81-0be8a68e09e8
+    id: image_scale
+    weight: 1
+    data:
+      width: 1600
+      height: null
+      upscale: false

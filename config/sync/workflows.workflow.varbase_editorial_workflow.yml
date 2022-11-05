@@ -1,0 +1,72 @@
+uuid: e857685b-c74c-4418-9a64-2e8db1b735a1
+langcode: es
+status: true
+dependencies:
+  module:
+    - content_moderation
+_core:
+  default_config_hash: NBZLvPK5TCY_u0OSSS2PGLBhS_oseL79glVJEUVMB4U
+id: varbase_editorial_workflow
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: 'Archived / Unpublished'
+      weight: 0
+      published: false
+      default_revision: true
+    draft:
+      label: Borrador
+      weight: -3
+      published: false
+      default_revision: false
+    published:
+      label: Publicado
+      weight: -1
+      published: true
+      default_revision: true
+    review:
+      label: 'In review'
+      weight: -2
+      published: false
+      default_revision: false
+  transitions:
+    archive:
+      label: 'Archive / Unpublish'
+      from:
+        - published
+      to: archived
+      weight: 1
+    archived_published:
+      label: 'Restore from archive'
+      from:
+        - archived
+      to: published
+      weight: 2
+    create_new_draft:
+      label: 'Create new draft'
+      from:
+        - archived
+        - draft
+        - review
+        - published
+      to: draft
+      weight: -3
+    publish:
+      label: Publicar
+      from:
+        - draft
+        - review
+        - published
+      to: published
+      weight: -1
+    review:
+      label: 'Send to review'
+      from:
+        - draft
+        - review
+      to: review
+      weight: -2
+  entity_types: {  }
+  default_moderation_state: draft

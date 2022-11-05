@@ -1,0 +1,9 @@
+uuid: bd28454a-c652-45dd-bccb-a7f96fcddf8c
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6TCEecHfj8jz_r0ts9LBMOVVfPujltZlk1Nvr8ifb34
+id: flush_plugin_cache_from_admin_toolbar
+label: 'Flush plugin cache from admin toolbar'
+route: admin_toolbar_tools.plugin

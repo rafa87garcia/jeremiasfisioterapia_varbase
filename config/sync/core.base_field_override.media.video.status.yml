@@ -1,0 +1,24 @@
+uuid: abe7ea53-b53d-44e7-af43-54c9d67bff4c
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.video
+_core:
+  default_config_hash: LWtDkEOUpIT8TeyOdvM2pgQrX4bYIbjgaNR9ciL1mtg
+id: media.video.status
+field_name: status
+entity_type: media
+bundle: video
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

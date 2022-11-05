@@ -1,0 +1,24 @@
+uuid: 10a6c99e-ef8c-4b6c-9fcb-e5a79a6cfeb0
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.page
+_core:
+  default_config_hash: PZ6BfAew4oWAbmcqB8d4w6-PUIZQ4mGQiGVlMSNFvGs
+id: node.page.sticky
+field_name: sticky
+entity_type: node
+bundle: page
+label: 'Fijo al comienzo de las listas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

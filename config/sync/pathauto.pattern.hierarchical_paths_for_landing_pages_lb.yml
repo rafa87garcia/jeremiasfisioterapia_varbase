@@ -1,0 +1,24 @@
+uuid: cdb18d83-ded9-4c2c-9e65-fa6b07605b20
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: CgkskmJ_aCTiPhSaBAvuu3a91bRPHJzuhfdOY21lyEQ
+id: hierarchical_paths_for_landing_pages_lb
+label: 'Hierarchical paths for landing pages (Layout Builder)'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parents:join-path]/[node:title]'
+selection_criteria:
+  cae0d0d3-058c-4b4b-8e8a-3a1a5b71813e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: cae0d0d3-058c-4b4b-8e8a-3a1a5b71813e
+    context_mapping:
+      node: node
+    bundles:
+      landing_page_lb: landing_page_lb
+selection_logic: and
+weight: 0
+relationships: {  }

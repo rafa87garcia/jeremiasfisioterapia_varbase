@@ -1,0 +1,17 @@
+uuid: 5e1e4d6c-4ba2-4ac6-95a4-f1585227d94e
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 686qPvDzLZV-XJNQrXn3kDrqyvpWNx8wi2p1GC7PaZ8
+name: d04
+label: 'Display 04 (400xAuto)'
+effects:
+  6f277f09-917a-4e9c-84e8-f22bdb06aed5:
+    uuid: 6f277f09-917a-4e9c-84e8-f22bdb06aed5
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: false

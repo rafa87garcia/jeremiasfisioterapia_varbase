@@ -1,0 +1,22 @@
+uuid: 1bef5acf-0855-4aae-8385-39cda3474f08
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+_core:
+  default_config_hash: mS1K-W63vdB25CSOM72vmLfoogqrd5cjLggOk5Yt0fw
+id: bootstrap_barrio_content
+theme: bootstrap_barrio
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

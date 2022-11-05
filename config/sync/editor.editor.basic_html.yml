@@ -1,0 +1,64 @@
+uuid: 3d8010ab-6cb6-42f4-a958-211d27ba7808
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: k-FxuuFqYYDbslNZE8EwHFvjI7b3zHcPfu3kniz569Y
+format: basic_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - '-'
+            - RemoveFormat
+        -
+          name: Lists
+          items:
+            - NumberedList
+            - BulletedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalMediaLibrary
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Direction
+          items:
+            - BidiLtr
+            - BidiRtl
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: linkit_all_nodes
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

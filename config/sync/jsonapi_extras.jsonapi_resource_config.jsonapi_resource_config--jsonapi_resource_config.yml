@@ -1,0 +1,35 @@
+uuid: be3d2786-1254-4dc5-817e-e8d0c197a86c
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AIfq3C6f5iBsS-IZrr41VZywjKNBMUFzZ0gWiqW8Yhw
+id: jsonapi_resource_config--jsonapi_resource_config
+disabled: true
+path: jsonapi_resource_config/jsonapi_resource_config
+resourceType: jsonapi_resource_config--jsonapi_resource_config
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

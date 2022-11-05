@@ -1,0 +1,20 @@
+uuid: d5c9e887-d028-4fd8-a706-5757b943b32d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.varbase_heroslider_media
+_core:
+  default_config_hash: _Wvi5qMPWKjgktkmCxKU4K6czVA_IGiq2y97vFnuJSw
+id: node.varbase_heroslider_media.created
+field_name: created
+entity_type: node
+bundle: varbase_heroslider_media
+label: 'Fecha de autoría'
+description: 'La fecha en que el nodo fue creado.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,77 @@
+uuid: 824c9811-96e1-4e32-810e-163e41608fb7
+langcode: es
+status: true
+dependencies:
+  module:
+    - bootstrap_layout_builder
+    - jsonapi_defaults
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: vhRZZjV_2P6qu8iw_JkpCb01kggFQaP9b1d6BFwX3iE
+id: blb_breakpoint--blb_breakpoint
+disabled: true
+path: blb_breakpoint/blb_breakpoint
+resourceType: blb_breakpoint--blb_breakpoint
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  base_class:
+    disabled: false
+    fieldName: base_class
+    publicName: base_class
+    enhancer:
+      id: ''
+  weight:
+    disabled: false
+    fieldName: weight
+    publicName: weight
+    enhancer:
+      id: ''

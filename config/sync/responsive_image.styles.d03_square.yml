@@ -1,0 +1,26 @@
+uuid: bd101140-f308-4ece-9248-dcf104e9b1be
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.d03_square
+    - image.style.d08_square
+  module:
+    - varbase_media
+_core:
+  default_config_hash: ONnotXOMsDyWi7cXMCu-A204xHyO0vfLJ9v9hOzh_5w
+id: d03_square
+label: 'Display 03 responsive square 1:1'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: d08_square
+    breakpoint_id: varbase_media.screen-sm-max
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: d03_square
+    breakpoint_id: varbase_media.screen-md-min
+    multiplier: 1x
+breakpoint_group: varbase_media
+fallback_image_style: d03_square

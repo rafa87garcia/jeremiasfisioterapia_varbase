@@ -1,0 +1,17 @@
+uuid: 3c2cdc68-4542-40e2-a99e-aed2084f4021
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2c1sOHatvPv9eWFX6tQn570WHWJz-InmLqcgMGG8ONc
+id: vlb_col_4_4_4_2_2
+layout_id: blb_col_4
+label: '4/12 4/12 2/12 2/12'
+structure: '4 4 2 2'
+breakpoints:
+  breakpoint_xl: 0
+  breakpoint_lg: 0
+  breakpoint_md: 0
+  breakpoint_sm: 0
+  breakpoint_xs: 0
+weight: '-9'

@@ -1,0 +1,9 @@
+uuid: a9cc8115-0e0c-42b3-853d-2eda34aff7a9
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '--hP3DOgbJNMJOKgbPa4Y7EEAkG5-Z4B5GTJtD7j7v8'
+id: flush_views_cache_from_admin_toolbar
+label: 'Flush views cache from admin toolbar'
+route: admin_toolbar_tools.flush_views

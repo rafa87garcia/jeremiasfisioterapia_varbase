@@ -1,0 +1,95 @@
+uuid: bd5adb9c-1a93-490e-a2a2-a02972ea875b
+langcode: es
+status: true
+dependencies:
+  module:
+    - jsonapi_defaults
+    - section_library
+third_party_settings:
+  jsonapi_defaults:
+    page_limit: 50
+_core:
+  default_config_hash: Ue_RDlTdHaq79NXcxWnPlwCTFDtPoOw1PGabP-ZxJ2A
+id: section_library_template--section_library_template
+disabled: true
+path: section_library_template/section_library_template
+resourceType: section_library_template--section_library_template
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  user_id:
+    disabled: false
+    fieldName: user_id
+    publicName: user_id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  entity_id:
+    disabled: false
+    fieldName: entity_id
+    publicName: entity_id
+    enhancer:
+      id: ''
+  entity_type:
+    disabled: false
+    fieldName: entity_type
+    publicName: entity_type
+    enhancer:
+      id: ''
+  layout_section:
+    disabled: false
+    fieldName: layout_section
+    publicName: layout_section
+    enhancer:
+      id: ''
+  image:
+    disabled: false
+    fieldName: image
+    publicName: image
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  metatag:
+    disabled: false
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''

@@ -1,0 +1,33 @@
+uuid: 0727e400-ed7b-47f4-80aa-e140e570f6cd
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_gallery_block
+    - core.entity_form_mode.media.simplified
+    - field.field.block_content.varbase_gallery_block.field_gallery
+  module:
+    - inline_entity_form
+_core:
+  default_config_hash: nMS9w9IpFwwI0lqNisDGinxLxv36NtwhGlKWMIY6yGk
+id: block_content.varbase_gallery_block.default
+targetEntityType: block_content
+bundle: varbase_gallery_block
+mode: default
+content:
+  field_gallery:
+    type: inline_entity_form_simple
+    weight: 0
+    region: content
+    settings:
+      form_mode: simplified
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      collapsible: false
+      collapsed: false
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true
+  translation: true

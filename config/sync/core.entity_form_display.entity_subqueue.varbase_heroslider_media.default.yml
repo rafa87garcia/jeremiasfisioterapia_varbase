@@ -1,0 +1,52 @@
+uuid: null
+langcode: es
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.varbase_heroslider_media
+  module:
+    - entity_browser_entity_form
+    - inline_entity_form
+_core:
+  default_config_hash: q-139qI_ri3p3fZNfE6t56TVaUKNE0TBoIDamCU81zk
+id: entity_subqueue.varbase_heroslider_media.default
+targetEntityType: entity_subqueue
+bundle: varbase_heroslider_media
+mode: default
+content:
+  items:
+    type: inline_entity_form_complex
+    weight: 5
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: elemento
+      label_plural: elementos
+      allow_new: false
+      allow_existing: true
+      allow_edit: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: false
+      collapsed: false
+      revision: true
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: _none
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

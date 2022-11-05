@@ -1,0 +1,140 @@
+uuid: 4359432f-1ddb-4f0f-aac7-3c18dea4ada6
+langcode: es
+status: true
+dependencies:
+  config:
+    - page_manager.page.total_control_dashboard
+    - views.view.control_content_panes
+    - views.view.control_users_panes
+  module:
+    - panels
+    - total_control
+    - views
+_core:
+  default_config_hash: pcCeFa97fFOOAE-9sj0QNW2hO_Ssub3jgRa8vAVlYE0
+id: total_control_dashboard-http_status_code-0
+label: 'Panel de control'
+weight: 0
+variant: panels_variant
+variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 020d4fd5-5f12-4ac0-b5bb-94de5616645f
+  blocks:
+    374746e1-36e1-43cb-af41-b2cb17100667:
+      id: create_content
+      label: 'Crear contenido'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: first_above
+      weight: -2
+      uuid: 374746e1-36e1-43cb-af41-b2cb17100667
+      total_control_admin_types_links:
+        article: article
+        page: page
+    7ad313ed-8fa4-44a4-a9c2-771c4fbd9e70:
+      id: content_overview
+      label: 'Resumen del contenido'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: first_above
+      weight: -1
+      uuid: 7ad313ed-8fa4-44a4-a9c2-771c4fbd9e70
+      total_control_types_overview:
+        article: article
+        page: page
+      total_control_comments_overview:
+        article: article
+        page: 0
+      total_control_spam_overview: '1'
+    ed6edc15-f68f-4595-a80e-4f65291d7142:
+      id: 'views_block:control_users_panes-pane_tc_new_users'
+      label: ''
+      label_display: visible
+      provider: views
+      context_mapping: {  }
+      views_label: ''
+      items_per_page: none
+      region: first_above
+      weight: 0
+      uuid: ed6edc15-f68f-4595-a80e-4f65291d7142
+    abbcecdc-dbee-4f48-9128-ab4bf35342a3:
+      id: 'views_block:control_content_panes-pane_tc_new'
+      label: ''
+      label_display: visible
+      provider: views
+      context_mapping: {  }
+      views_label: ''
+      items_per_page: none
+      region: first_above
+      weight: 1
+      uuid: abbcecdc-dbee-4f48-9128-ab4bf35342a3
+    a3c07e88-8484-49da-ac42-ebcb6762704a:
+      id: administer_menus
+      label: 'Administer Menus'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: second_above
+      weight: -3
+      uuid: a3c07e88-8484-49da-ac42-ebcb6762704a
+      total_control_admin_menus:
+        main: main
+        admin: 0
+        footer: 0
+        tools: 0
+        account: 0
+    f94fb0b4-a34c-4908-8850-b026b8df0ccf:
+      id: administer_content_types
+      label: 'Administer Content Types'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: second_above
+      weight: -2
+      uuid: f94fb0b4-a34c-4908-8850-b026b8df0ccf
+      total_control_admin_types:
+        article: article
+        page: 0
+    b4cdaa8a-08d9-463a-913c-fd4397de6d8f:
+      id: administer_taxonomy
+      label: 'Administer Taxonomy'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: second_above
+      weight: -1
+      uuid: b4cdaa8a-08d9-463a-913c-fd4397de6d8f
+      total_control_admin_taxonomy:
+        tags: tags
+    6f665b86-9665-459d-93f9-529d94e881bd:
+      id: administer_panel_pages
+      label: 'Administer Panel Pages'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: second_above
+      weight: 0
+      uuid: 6f665b86-9665-459d-93f9-529d94e881bd
+    7997d461-2c39-41d2-8894-0c0b2faa08ed:
+      id: total_control_dashboard
+      label: 'Tomar el Control Total'
+      label_display: visible
+      provider: total_control
+      context_mapping: {  }
+      region: top
+      weight: 0
+      uuid: 7997d461-2c39-41d2-8894-0c0b2faa08ed
+  page_title: 'Panel de control'
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  builder: standard
+  storage_type: page_manager
+  storage_id: total_control_dashboard-http_status_code-0
+page: total_control_dashboard
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

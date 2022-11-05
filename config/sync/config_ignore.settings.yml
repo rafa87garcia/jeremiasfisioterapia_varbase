@@ -1,0 +1,5 @@
+langcode: es
+ignored_config_entities:
+  - 'webform.webform.*'
+  - 'xmlsitemap.xmlsitemap.*'
+  - 'varbase_core.general_settings.*'

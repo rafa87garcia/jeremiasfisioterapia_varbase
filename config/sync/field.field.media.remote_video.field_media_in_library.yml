@@ -1,0 +1,25 @@
+uuid: 5709bc2e-b3ca-4923-ad25-46f82c36420b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_in_library
+    - media.type.remote_video
+_core:
+  default_config_hash: afeftEam08OaeCeg9FDSYHCU3ALspepjJthKaNF4mn4
+id: media.remote_video.field_media_in_library
+field_name: field_media_in_library
+entity_type: media
+bundle: remote_video
+label: 'Show in media library'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

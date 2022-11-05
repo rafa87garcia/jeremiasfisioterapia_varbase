@@ -1,0 +1,17 @@
+uuid: 2feed502-60d6-462c-9949-2945e73b489f
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ygpMvMbzAMP74GIndMpltYC79tyawNJVIKkDOMvwdVM
+id: vlb_col_4_2_4_4_2
+layout_id: blb_col_4
+label: '2/12 4/12 4/12 2/12'
+structure: '2 4 4 2'
+breakpoints:
+  breakpoint_xl: 0
+  breakpoint_lg: 0
+  breakpoint_md: 0
+  breakpoint_sm: 0
+  breakpoint_xs: 0
+weight: '-7'

@@ -1,0 +1,22 @@
+uuid: 02f6e740-2af0-44d6-b488-c28e476fd4fa
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_bs4
+_core:
+  default_config_hash: mS1K-W63vdB25CSOM72vmLfoogqrd5cjLggOk5Yt0fw
+id: vartheme_bs4_content
+theme: vartheme_bs4
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

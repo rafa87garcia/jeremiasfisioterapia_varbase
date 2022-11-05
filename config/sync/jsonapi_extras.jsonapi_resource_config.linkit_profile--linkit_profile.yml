@@ -1,0 +1,79 @@
+uuid: 0c7c01fd-88e9-43fd-9cd1-816f4301fbdd
+langcode: es
+status: true
+dependencies:
+  module:
+    - linkit
+_core:
+  default_config_hash: 6SC-xv1iCg6gmwn7DAAbJ2iO-xLfQO0aFi2Honly8C4
+id: linkit_profile--linkit_profile
+disabled: true
+path: linkit_profile/linkit_profile
+resourceType: linkit_profile--linkit_profile
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  description:
+    disabled: false
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+  attributes:
+    disabled: false
+    fieldName: attributes
+    publicName: attributes
+    enhancer:
+      id: ''
+  matchers:
+    disabled: false
+    fieldName: matchers
+    publicName: matchers
+    enhancer:
+      id: ''

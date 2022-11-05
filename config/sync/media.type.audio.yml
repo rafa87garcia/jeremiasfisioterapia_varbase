@@ -1,0 +1,20 @@
+uuid: e6f4aa69-255f-469e-8d11-5f7a6244aaf0
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: 4rgSSYufIIezxoD6jn6Mt2BRWomio3eb-dbIK-wXMU0
+id: audio
+label: Audio
+description: 'Un archivo de audio alojado localmente.'
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_audio_file
+field_map: {  }

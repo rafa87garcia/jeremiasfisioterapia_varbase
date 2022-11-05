@@ -1,0 +1,25 @@
+uuid: 29da99e4-0f94-4af3-a5c9-58b1c0dea4aa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.varbase_heroslider_media
+  module:
+    - link
+_core:
+  default_config_hash: WFKaBd1BW_vnA4BzZvewtVoHvemYUfNidrFY-o19q0U
+id: node.varbase_heroslider_media.field_link
+field_name: field_link
+entity_type: node
+bundle: varbase_heroslider_media
+label: 'Call for action link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

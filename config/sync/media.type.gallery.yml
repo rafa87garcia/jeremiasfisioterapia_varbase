@@ -1,0 +1,21 @@
+uuid: 4b5c20d6-89cf-4b68-8480-bc74f6015826
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+    - varbase_media
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: hhLkkFFQ8i0YG8C6RYin3aW8lFRm356JzPADYeON-tc
+id: gallery
+label: Galería
+description: 'Use the gallery for a reusable set of images or videos.'
+source: gallery
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_gallery
+field_map: {  }

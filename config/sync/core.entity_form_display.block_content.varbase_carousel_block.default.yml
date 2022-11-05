@@ -1,0 +1,42 @@
+uuid: c4383967-143c-474c-af3c-324be3dbf119
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_carousel_block
+    - field.field.block_content.varbase_carousel_block.field_media_carousel_slide
+  module:
+    - media_library
+    - media_library_edit
+_core:
+  default_config_hash: 2DPmjoDvVwH1z_BOJWid1yaezfBHv0q2EcUAWzgBnq8
+id: block_content.varbase_carousel_block.default
+targetEntityType: block_content
+bundle: varbase_carousel_block
+mode: default
+content:
+  field_media_carousel_slide:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings:
+      media_library_edit:
+        show_edit: '1'
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

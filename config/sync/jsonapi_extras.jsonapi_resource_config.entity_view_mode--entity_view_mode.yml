@@ -1,0 +1,71 @@
+uuid: c5e4fb77-b5e9-440f-908e-7649af73b6f2
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BOUK2fKzKZkUT7rlDfuQlIb5Hs2nko7VGPqqWPydX3w
+id: entity_view_mode--entity_view_mode
+disabled: true
+path: entity_view_mode/entity_view_mode
+resourceType: entity_view_mode--entity_view_mode
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  targetEntityType:
+    disabled: false
+    fieldName: targetEntityType
+    publicName: targetEntityType
+    enhancer:
+      id: ''
+  cache:
+    disabled: false
+    fieldName: cache
+    publicName: cache
+    enhancer:
+      id: ''

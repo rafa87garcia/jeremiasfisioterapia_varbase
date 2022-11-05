@@ -1,0 +1,12 @@
+uuid: fc3f4af2-1103-40cd-8b6a-23643712216f
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: bdRF02avtmZW08aSsORWjphBhPoqrZkfnsTC1mIKFbQ
+id: media.simplified
+label: Simplified
+targetEntityType: media
+cache: true

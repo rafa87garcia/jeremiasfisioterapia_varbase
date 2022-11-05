@@ -1,0 +1,19 @@
+uuid: 8e6e739c-9734-4b0b-b2c2-b0c23c54eafc
+langcode: es
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: M9aCLp7ciPFh52vGcMnPQdKAbjchtFrjaMay1pZ-gRY
+name: de2e_standard
+label: 'Display Edge-to-Edge standard 16:9'
+effects:
+  bcf280eb-b46e-4d5a-ab5c-8dd7fa41a467:
+    uuid: bcf280eb-b46e-4d5a-ab5c-8dd7fa41a467
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 900
+      crop_type: focal_point

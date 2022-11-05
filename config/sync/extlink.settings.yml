@@ -1,0 +1,12 @@
+langcode: es
+extlink_target: true
+extlink_subdomains: true
+extlink_alert: false
+extlink_alert_text: ''
+extlink_exclude: ''
+extlink_include: ''
+extlink_class: '0'
+extlink_img_class: false
+extlink_css_exclude: ''
+extlink_css_explicit: ''
+extlink_mailto_class: '0'

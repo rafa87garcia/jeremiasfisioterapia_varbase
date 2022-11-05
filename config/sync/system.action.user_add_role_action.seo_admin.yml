@@ -1,0 +1,14 @@
+uuid: fcb80c80-1054-40df-b812-ac10a1f26948
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.seo_admin
+  module:
+    - user
+id: user_add_role_action.seo_admin
+label: 'Añade el rol SEO Admin al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: seo_admin

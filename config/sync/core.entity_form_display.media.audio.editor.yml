@@ -1,0 +1,33 @@
+uuid: 1414241b-3852-469f-a1be-4527f0322c16
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.editor
+    - field.field.media.audio.field_media_audio_file
+    - field.field.media.audio.field_media_in_library
+    - media.type.audio
+  module:
+    - file
+_core:
+  default_config_hash: lgLrOsheChL0m9mdTg67MGHyOqdHybpRPYNN7D_UdAA
+id: media.audio.editor
+targetEntityType: media
+bundle: audio
+mode: editor
+content:
+  field_media_audio_file:
+    type: file_generic
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_in_library: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

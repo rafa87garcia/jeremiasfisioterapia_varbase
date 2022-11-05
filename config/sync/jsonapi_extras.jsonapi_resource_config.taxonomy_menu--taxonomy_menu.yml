@@ -1,0 +1,37 @@
+uuid: 0121b28c-756b-415f-bee0-3891aa00c6c4
+langcode: es
+status: true
+dependencies:
+  module:
+    - taxonomy_menu
+_core:
+  default_config_hash: uu2tYvmoV_FhZRV04sSK0RHviCBj4M74LTwcjgZMxhs
+id: taxonomy_menu--taxonomy_menu
+disabled: true
+path: taxonomy_menu/taxonomy_menu
+resourceType: taxonomy_menu--taxonomy_menu
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''

@@ -1,0 +1,22 @@
+uuid: 6cc4a4fc-7d80-4fdf-855a-a7737e4e7e18
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_claro
+_core:
+  default_config_hash: 5C1RRAqZH8LDdYZz87Th2e4S4hDSusNzAFC-5p2ph3o
+id: vartheme_claro_content
+theme: vartheme_claro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

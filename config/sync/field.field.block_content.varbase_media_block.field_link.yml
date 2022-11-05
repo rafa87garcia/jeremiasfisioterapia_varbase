@@ -1,0 +1,25 @@
+uuid: cb56537b-3311-445b-aa21-4d53341c4377
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_media_block
+    - field.storage.block_content.field_link
+  module:
+    - link
+_core:
+  default_config_hash: G9E2hH8dpc7FcJKlVbRRmDzc85nQCpp1Ly2ekVtHHNo
+id: block_content.varbase_media_block.field_link
+field_name: field_link
+entity_type: block_content
+bundle: varbase_media_block
+label: Enlace
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: ce6WctcNYnaEo3BmHQc_Fmukw7AkPJ137tH5GwPW93w
+langcode: es
+lifetime: 30
+max_tokens: 0
+login_form:
+  field_label: Recordarme
+cookie_prefix: PL

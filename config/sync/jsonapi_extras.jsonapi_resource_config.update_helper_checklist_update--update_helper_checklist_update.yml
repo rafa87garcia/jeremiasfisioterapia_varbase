@@ -1,0 +1,49 @@
+uuid: fa817cb6-d7ec-43a2-9f7d-8d75d9be9ffd
+langcode: es
+status: true
+dependencies:
+  module:
+    - update_helper_checklist
+_core:
+  default_config_hash: wIjLOXWvCm75P6jW811jAHF1xYCz3TEyek8Ygprslx0
+id: update_helper_checklist_update--update_helper_checklist_update
+disabled: true
+path: update_helper_checklist_update/update_helper_checklist_update
+resourceType: update_helper_checklist_update--update_helper_checklist_update
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  successful_by_hook:
+    disabled: false
+    fieldName: successful_by_hook
+    publicName: successful_by_hook
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''

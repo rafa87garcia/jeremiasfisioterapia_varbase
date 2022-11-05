@@ -1,0 +1,44 @@
+uuid: ef7792b3-46af-4785-aa8a-4e3dddb19028
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.field_preview
+    - field.field.media.file.field_media_file
+    - field.field.media.file.field_media_in_library
+    - image.style.field_preview
+    - media.type.file
+  module:
+    - image
+_core:
+  default_config_hash: kfsHIp6sZ7C_8ezUv4oqejOUzBeO_XyApN_yv3hCSK0
+id: media.file.field_preview
+targetEntityType: media
+bundle: file
+mode: field_preview
+content:
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: field_preview
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_file: true
+  field_media_in_library: true
+  langcode: true
+  uid: true

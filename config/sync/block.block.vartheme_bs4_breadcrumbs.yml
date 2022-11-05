@@ -1,0 +1,22 @@
+uuid: e9fb8e61-576e-434c-8089-7cbd4fce861a
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_bs4
+_core:
+  default_config_hash: 5oFLuf0E15Nhm8NJMsNjHJCokFVBe2M2MG0au7smUKg
+id: vartheme_bs4_breadcrumbs
+theme: vartheme_bs4
+region: header
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

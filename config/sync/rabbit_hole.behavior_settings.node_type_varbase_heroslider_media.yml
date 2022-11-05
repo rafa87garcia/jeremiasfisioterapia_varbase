@@ -1,0 +1,14 @@
+uuid: 4009432d-22cd-45e0-9545-0f5ac5d294b0
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wBQ1_ruYiOkpaCc2wGJ2NN-dsNdeY8P859nIbOuwRUo
+id: node_type_varbase_heroslider_media
+entity_type_id: null
+entity_id: null
+action: access_denied
+allow_override: 0
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: null

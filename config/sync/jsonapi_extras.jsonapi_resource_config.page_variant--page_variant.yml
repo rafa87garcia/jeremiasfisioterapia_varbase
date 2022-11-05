@@ -1,0 +1,103 @@
+uuid: de0e457e-b7f1-4094-a195-045bbe796853
+langcode: es
+status: true
+dependencies:
+  module:
+    - page_manager
+_core:
+  default_config_hash: slPlrSY3v-aVnp-3OOAPBfIKa-o1EiYzhQyuBD3A4ZA
+id: page_variant--page_variant
+disabled: true
+path: page_variant/page_variant
+resourceType: page_variant--page_variant
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  variant:
+    disabled: false
+    fieldName: variant
+    publicName: variant
+    enhancer:
+      id: ''
+  variant_settings:
+    disabled: false
+    fieldName: variant_settings
+    publicName: variant_settings
+    enhancer:
+      id: ''
+  page:
+    disabled: false
+    fieldName: page
+    publicName: page
+    enhancer:
+      id: ''
+  weight:
+    disabled: false
+    fieldName: weight
+    publicName: weight
+    enhancer:
+      id: ''
+  selection_criteria:
+    disabled: false
+    fieldName: selection_criteria
+    publicName: selection_criteria
+    enhancer:
+      id: ''
+  selection_logic:
+    disabled: false
+    fieldName: selection_logic
+    publicName: selection_logic
+    enhancer:
+      id: ''
+  static_context:
+    disabled: false
+    fieldName: static_context
+    publicName: static_context
+    enhancer:
+      id: ''

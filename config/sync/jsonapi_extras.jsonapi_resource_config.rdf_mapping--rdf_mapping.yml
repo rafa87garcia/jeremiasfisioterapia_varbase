@@ -1,0 +1,79 @@
+uuid: d590a773-1788-407b-bb02-86ae144782c9
+langcode: es
+status: true
+dependencies:
+  module:
+    - rdf
+_core:
+  default_config_hash: 7br3rhSPTQ8R-oYZO3H5CQC9T6ev0dBLX7BJe9KChyw
+id: rdf_mapping--rdf_mapping
+disabled: true
+path: rdf_mapping/rdf_mapping
+resourceType: rdf_mapping--rdf_mapping
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  targetEntityType:
+    disabled: false
+    fieldName: targetEntityType
+    publicName: targetEntityType
+    enhancer:
+      id: ''
+  bundle:
+    disabled: false
+    fieldName: bundle
+    publicName: bundle
+    enhancer:
+      id: ''
+  types:
+    disabled: false
+    fieldName: types
+    publicName: types
+    enhancer:
+      id: ''
+  fieldMappings:
+    disabled: false
+    fieldName: fieldMappings
+    publicName: fieldMappings
+    enhancer:
+      id: ''

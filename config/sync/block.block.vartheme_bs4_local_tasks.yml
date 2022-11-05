@@ -1,0 +1,29 @@
+uuid: a1160802-197d-4f18-89da-4437d1a0de3d
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_bs4
+_core:
+  default_config_hash: GHKAEpw88svZDzOWs2pKgSQjp28zbWXNdkliTCMxLKQ
+id: vartheme_bs4_local_tasks
+theme: vartheme_bs4
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '/node/*'

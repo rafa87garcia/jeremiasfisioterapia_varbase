@@ -1,0 +1,79 @@
+uuid: 3350d6f0-60c7-4a99-ac7a-b196a52144d0
+langcode: es
+status: true
+dependencies:
+  module:
+    - embed
+_core:
+  default_config_hash: hQckoo0FiaBwYZlsFlvhB0zGST6HDOJJt67cIQ169-w
+id: embed_button--embed_button
+disabled: true
+path: embed_button/embed_button
+resourceType: embed_button--embed_button
+resourceFields:
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  dependencies:
+    disabled: false
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+  third_party_settings:
+    disabled: false
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+  _core:
+    disabled: false
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+  label:
+    disabled: false
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  type_id:
+    disabled: false
+    fieldName: type_id
+    publicName: type_id
+    enhancer:
+      id: ''
+  type_settings:
+    disabled: false
+    fieldName: type_settings
+    publicName: type_settings
+    enhancer:
+      id: ''
+  icon_uuid:
+    disabled: false
+    fieldName: icon_uuid
+    publicName: icon_uuid
+    enhancer:
+      id: ''

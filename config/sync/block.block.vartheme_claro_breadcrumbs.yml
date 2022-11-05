@@ -1,0 +1,22 @@
+uuid: f8bb6279-9119-40b9-883c-c13059c2eb6e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_claro
+_core:
+  default_config_hash: s5WPRcLactZk9jcrDRAHaZGNEP95sWIaGBxPEFXea30
+id: vartheme_claro_breadcrumbs
+theme: vartheme_claro
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

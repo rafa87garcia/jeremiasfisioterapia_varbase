@@ -1,0 +1,12 @@
+uuid: bd9f04fd-5d00-4d64-bdc4-666e85bc8e38
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 4bWYX7aQyveXIE-cBSeWwmAlN0Q_p5b_1Ml88xlMniM
+id: media.token
+label: Comodín
+targetEntityType: media
+cache: true

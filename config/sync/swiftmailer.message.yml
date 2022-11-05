@@ -1,0 +1,6 @@
+langcode: es
+character_set: UTF-8
+format: text/html
+filter_format: plain_text
+respect_format: false
+convert_mode: true
