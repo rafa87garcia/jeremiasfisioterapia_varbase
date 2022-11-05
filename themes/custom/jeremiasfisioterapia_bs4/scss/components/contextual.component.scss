@@ -1,0 +1,12 @@
+// Contextual links component style.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // jeremiasfisioterapia_bs4 variables.
+@import "../mixins";                      // jeremiasfisioterapia_bs4 mixins.
+// -----------------------------------------------------------------------------
+
+.contextual-links a {
+  border-bottom: none;
+  text-shadow: 0 0 0;
+}

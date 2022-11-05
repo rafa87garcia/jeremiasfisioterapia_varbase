@@ -1,0 +1,17 @@
+// jeremiasfisioterapia_bs4 Maintenance page custom style.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // jeremiasfisioterapia_bs4 variables.
+@import "../mixins";                      // jeremiasfisioterapia_bs4 mixins.
+// -----------------------------------------------------------------------------
+
+/* Insert your jeremiasfisioterapia_bs4 maintenance page custom SASS styling. */
+
+.maintenance-page {
+  footer {
+    .footer-credits {
+      @include font-size(0.75rem);
+    }
+  }
+}

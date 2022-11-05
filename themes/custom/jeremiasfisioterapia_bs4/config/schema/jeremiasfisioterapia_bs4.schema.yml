@@ -1,0 +1,4 @@
+# Schema for the configuration files of the jeremiasfisioterapia_bs4.
+jeremiasfisioterapia_bs4.settings:
+  type: vartheme_bs4.settings
+  label: "jeremiasfisioterapia_bs4 settings"
